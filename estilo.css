@@ -2,8 +2,9 @@
     /* reset */
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
-
+    background-color: pink;
 }
+
 div{
     /*border: solid 2px red;*/
     border-color: red;
@@ -17,4 +18,18 @@ div{
     font-family: 'Courier New', Courier, monospace;
 
     background-color: rgb(250, 0, 0); /* valores rgb, rgba, hexadecimal */
+}
+
+.parent-Container {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black; /* valores shorthand */
+    background-color: cadetblue;
+}
+
+.my-div {
+    background-color: darkgreen;
+    padding: 2px 2px; /* valores shorthand */
+    margin: 4px 4px; /* valores shorthand */
+    border: 2px dashed red; /* valores shorthand */
 }
